@@ -1,0 +1,27 @@
+.buttonDiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    /* background-color: rebeccapurple; */
+    margin-right: 1vw;
+    margin-bottom: 1vw;
+}
+
+.button {
+    border: 1px solid #ffce21;
+    border-radius: 2vw;
+    background-color: #262527;
+    color: #ffce21;
+    padding: 0.5vw;
+    font-size: 1vw;
+    font-family: "SF Pro Display";
+    width: 15vw;
+
+}
+
+.button:hover {
+    color: var(--Inner-Black-Shade, #1F2027);
+    text-align: center;
+    background-color: #ffce21;
+}
